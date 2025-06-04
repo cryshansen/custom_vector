@@ -1,0 +1,6 @@
+custom_vectormap.admin_menu:
+  title: 'Custom VectorMap Accordion Settings'
+  description: 'Configure the map accordion settings.'
+  parent: system.admin_config
+  route_name: custom_vectormap.settings
+  weight: 100

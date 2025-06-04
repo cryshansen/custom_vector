@@ -1,0 +1,7 @@
+name: 'Vector Map Accordion'
+type: module
+description: 'Displays a map with accordion-triggered markers and a configuration form to add locations.'
+core_version_requirement: ^9 || ^10
+package: EMTP Custom
+dependencies:
+  - drupal:config

@@ -1,0 +1,9 @@
+map_accordion_library:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css: {}
+      css/main.css: {}
+  js:
+    https://cdn.jsdelivr.net/npm/jsvectormap: {}
+    https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world-merc.js: {}
+    js/map.js: {}

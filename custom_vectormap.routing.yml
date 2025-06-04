@@ -1,0 +1,14 @@
+custom_vectormap.map_content:
+  path: '/about-us/w-distributors'
+  defaults:
+    _controller: '\Drupal\custom_vectormap\Controller\MapAccordionController::mapContent'
+    _title: 'Worldwide Distributors'
+  requirements:
+    _permission: 'access content'
+custom_vectormap.config_form:
+  path: '/admin/config/custom-vectormap/settings'
+  defaults:
+    _form: '\Drupal\custom_vectormap\Form\MapAccordionConfigForm'
+    _title: 'Custom Vector Map Settings'
+  requirements:
+    _permission: 'administer site configuration'

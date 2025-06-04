@@ -1,0 +1,364 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world-merc.js"></script>
+
+  <style>
+    #map {
+      width: 600px;
+      height: 400px;
+      float: left;
+    }
+    #accordionExample {
+      width: 300px;
+      float: left;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>EMTP World Reps</h2>
+ 
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading0">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse0" aria-expanded="true" aria-controls="flush-collapse0" data-country="CA">
+        PGSTech
+      </button>
+    </h2>
+    <div id="flush-collapse0" class="accordion-collapse collapse show" aria-labelledby="flush-heading0" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <address>
+            <p>
+                2120 R. Sherbrooke E,
+                <br>
+                Suite 800
+                <br>
+                Montréal, QC H2K 1C3
+                <br>
+                Canada
+            </p>
+		  </address>
+	  </div>
+    </div>
+  </div>
+ <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1" data-country="RO">
+        InterNET SRL (+)
+      </button>
+    </h2>
+    <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <h3>
+            Headquarters
+        </h3>
+        <address>
+            <p>
+                65 Teodosie Rudeanu Street
+                <br>
+                CODE RO-011 257, Bucharest
+                <br>
+                Romania
+            </p>
+        </address>
+        <p>
+            <u>Website</u>: <a href="https://www.inter-net.ro">https://www.inter-net.ro</a>
+            <br>
+            <u>Mail to</u>: <a href="mailto:office@inter-net.ro">office@inter-net.ro</a>
+            <br>
+            Tel: +(40)21-312-1662, +(40)21-312-1663
+        </p>
+	  </div>
+    </div>
+  </div>
+   <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2" data-country="GE">
+        Parvus Consulting
+      </button>
+    </h2>
+    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+
+        <address>
+            <p>
+                37/39 Kostava Street Tbilisi,
+                <br>
+                GEORGIA
+            </p>
+        </address>
+        <p>
+            <u>Website</u>: www.parvusconsulting.com
+            <br>
+            <u>Mail</u>:<a href="mailto: infoconsulting@parvusgroup.ge"> infoconsulting@parvusgroup.ge</a>
+            <em>Parvus Consulting is the distributor for Georgia.</em>
+        </p>    
+	  </div>
+    </div>
+  </div>
+   <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3" data-country="TW">
+       ASTek Applied Co., Ltd.
+      </button>
+    </h2>
+    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <address>
+            <p>
+                No.30 Zhongzheng S Rd,
+                <br>
+                Yongkang Dist.
+                <br>
+                TAIWAN
+            </p>
+        </address>
+        <p>
+            <u>Tel</u>: +886 (6)-281-3300 | Ext 8300
+            <br>
+            <u>Website</u>: www.astek-tw.com
+            <br>
+            <u>Mail</u>:<a href="mailto: lucy.tsay@astek-tw.com"> lucy.tsay@astektw.com</a><br />
+            <em>ASTek Applied Co., Ltd. is the distributor for Taiwan.</em>
+        </p>
+	 </div>
+    </div>
+  </div>
+   <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4" data-country="CN">
+        Beijing Creation Technology Development Corp.
+      </button>
+    </h2>
+    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <address>
+            <p>
+                Rm.707, HengRun International Building,
+                <br>
+                32 Beisanhuan West Road,
+                <br>
+                Haidian District, Beijing,
+                <br>
+                CHINA
+            </p>
+        </address>
+        <p>
+            <u>Website</u>: www.creation-bj.com
+            <br>
+            <u>Mail</u>:<a href="mailto: davidhu@cssbwzt.com"> davidhu@cssbwzt.com</a><br/>
+            <em>Beijing Creation Technology Development Corp is the distributor for China.</em>
+        </p>	  
+	  </div>
+    </div>
+  </div>
+   <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-heading5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5" data-country="PE">
+       Power Energy and Control Engineering S.A.C.
+      </button>
+    </h2>
+    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <address>
+            <p>
+                Av. Brasil 1458,
+                <br>
+                Dpto. 1202,
+                <br>
+                Lima,
+                <br>
+                PERU
+            </p>
+        </address>
+        <p>
+            <u>Mail</u>:<a href="mailto: cgalvezn@pwece.com"> cgalvezn@pwece.com</a>
+            <em>Power Energy and Control Engineering S.A.C. is the distributor for Peru.</em>
+        </p>
+	  </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6" data-country="TR">
+       KRATIS Engineering
+      </button>
+    </h2>
+    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <address>
+            <p>
+                Yukari Dikmen,
+                <br>
+                Mah. 628. Cad. No:10,
+                <br>
+                Oran Çankaya 06450 Ankara
+                <br>
+                TÜRKIYE
+            </p>
+        </address>
+        <p>
+            <u>Tel</u>: +90 (312) 491-7799
+            <br>
+            <u>Website</u>: www.kratis.com
+            <br>
+            <u>Mail</u>:<a href="mailto: kratis@kratis.com"> kratis@kratis.com</a>
+            <em>KRATIS Engineering is the distributor for Turkey.</em>
+        </p>      
+	 </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading7">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7" data-country="KR">
+        SAM-A Techno Solutions Co., Ltd.
+      </button>
+    </h2>
+    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+		<address>
+            <p>
+                4F, Base building, Songjeongno 1gil 19,
+                <br>
+                Gangseo-Gu, Seoul,
+                <br>
+                SOUTH KOREA
+            </p>
+        </address>
+        <p>
+            <u>Tel</u>: +(82)10-8280-0914;
+            <br>
+            +(82)2-2664-5840
+            <br>
+            <u>Website</u>: www.isama.net
+            <br>
+            <u>Mail</u>:<a href="mailto: hbim@isama.net"> hbim@isama.net</a><br/>        
+            <em>SAM-A Technosolutions is the distributor for South Korea.</em>
+        </p>
+	  </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading8">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8" data-country="VN">
+        SYTEC
+      </button>
+    </h2>
+    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <address>
+            <p>
+                38th Thanh Nhan,
+                <br>
+                Hai Ba Trung District, Hanoi,
+                <br>
+                VIETNAM
+            </p>
+        </address>
+        <p>
+            <u>Tel</u>: +84(0)24-3577-3340;
+            <br>
+            <u>Website</u>: www.sytek.vn
+            <br>
+            <u>Mail</u>:<a href="mailto: info@sinhphuc.vn"> info@sinhphuc.vn</a>
+            <em>System &amp; Technology Company Ltd. (SYTEC), a private incorporated company founded in 1996 is the distributor for Vietnam.</em>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+ <div id="map"></div>
+  <script>
+    let markers = [
+        { name: 'Canada', coords: [56.13, -106.35] },
+        { name: 'Romania', coords: [45.94, 24.97] },
+        { name: 'Georgia', coords: [42.32, 43.36] },
+        { name: 'Taiwan', coords: [23.7, 120.96] },
+        { name: 'China', coords: [35.86, 104.2] },
+        { name: 'Peru', coords: [-9.19, -75.02] },
+        { name: 'Turkey', coords: [38.96, 35.24] },
+        { name: 'South Korea', coords: [35.91, 127.77] },
+        { name: 'Vietnam', coords: [14.06, 108.28] },
+        {
+            name: 'United States',
+            coords: [37.0902, -95.7129],
+            style: {
+                initial: {
+                    fill: 'red'  // Customize style for this marker
+                }
+            }
+        }
+    ];
+    let regions = ['CA','RO','GE','CN','PE','TR','KR','VN'];
+    // Initialize the map
+    const map = new jsVectorMap({
+      selector: "#map",
+      map: "world_merc",
+      zoomButtons: true,
+      regionStyle: {
+        // Everything in initial property can be overwritten here
+        hover: { fill: 'blue' },
+      },
+      selectedRegions: regions,
+      markers: markers,
+    });
+
+    // Function to handle highlighting a country
+    function highlightCountry(countryCode) {
+      // Clear all selected regions
+      map.clearSelectedRegions()
+      map.setSelectedRegions([countryCode]);
+      // Add one marker
+      //map.addMarkers({ name: countryCode, coords: [61, 105] });
+
+      // Or pass an array of markers
+    /*  map.addMarkers([{
+        name: 'Russia',
+        coords: [61, 105]
+      }, {
+        name: 'Egypt',
+        coords: [26.8206, 30.8025],
+        // Add additional style for this particular marker.
+        style: {
+          initial: {
+            fill: 'red' 
+          }
+        }
+      }]);
+      */
+      
+      
+    }
+
+    // Event listener for accordion item clicks
+    document.querySelectorAll('.accordion-button').forEach(button => {
+      button.addEventListener('click', function () {
+        
+        const country = this.getAttribute('data-country'); // Get the country code
+        alert(country);
+        highlightCountry(country);
+       
+          map.setBackgroundColor('#f6f6f6')
+
+      });
+    });
+
+    // Highlight the first country on page load (Canada as an example)
+    highlightCountry("CA");
+    
+    
+    map.extend('$hello', function (options) {
+        const map = this
+        console.log(map);
+        // Do some logic...
+      });
+      
+      map.$hello({});
+  </script>
+</body>
+</html>

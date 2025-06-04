@@ -1,0 +1,31 @@
+custom_vectormap.settings:
+  type: config_object
+  label: 'Custom Vector Map settings'
+  mapping:
+    locations:
+      type: sequence
+      label: 'Locations'
+      sequence:
+        type: mapping
+        mapping:
+          id:
+            type: string
+            label: 'Location ID'
+          title:
+            type: string
+            label: 'Title'
+          body:
+            type: string
+            label: 'Body'
+          latitude:
+            type: float
+            label: 'Latitude'
+          longitude:
+            type: float
+            label: 'Longitude'
+          country:
+            type: string
+            label: 'Country'
+          country_code:
+            type: string
+            label: 'Country Code'

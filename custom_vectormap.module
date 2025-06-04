@@ -1,0 +1,43 @@
+<?php
+//custom_vectormap
+use Drupal\Core\Breadcrumb\Breadcrumb;
+use Drupal\Core\Link;
+
+/**
+ * @file
+ * Email Subscribe module's procedural hooks and functions.
+ */
+/**
+ * Implements hook_theme().
+ */
+function custom_vectormap_theme() {
+  \Drupal::logger('custom_vectormap')->info("Im in modules module file -> theme");
+  return [ 
+  //map_accordion_page 
+    'map_accordion_page'=> [
+        'variables' => ['locations' => NULL ],
+        'template' => 'map-accordion-page',
+        'path' => drupal_get_path('module', 'custom_vectormap') . '/templates',
+      ],
+  ];
+}
+
+/**
+ * Implements hook_page_attachments().
+ Need the breadcrumb to show up. 
+ */
+function custom_vectormap_page_attachments(array &$page) {
+  // Check if this is the route you want to attach breadcrumbs to.
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  if ($route_name == 'custom_vectormap.map_content') { // Update with your route name
+    // Create a breadcrumb object.
+    $breadcrumb = new Breadcrumb();
+    $breadcrumb->addLink(Link::createFromRoute(t('Home'), '<front>'))
+               ->addLink(Link::createFromRoute(t('About Us'), 'custom_vectormap.map_overview'))
+               ->addLink(Link::createFromRoute(t('Worldwide Distributors'), '<current>'));
+
+    // Attach the breadcrumb to the page.
+    $breadcrumb_output = \Drupal::service('breadcrumb')->build($breadcrumb);
+    $page['#breadcrumb'] = $breadcrumb_output;
+  }
+}

@@ -1,0 +1,89 @@
+id: '1'
+title: PGSTech
+body: "<address>\r\n            <p>\r\n                2120 R. Sherbrooke E,\r\n                <br>\r\n                Suite 800\r\n                <br>\r\n                Montréal, QC H2K 1C3\r\n                <br>\r\n                Canada\r\n            </p>\r\n\t\t  </address>"
+latitude: '45.5088'
+longitude: '-73.5878'
+country_code: CA
+country: Canada
+locations:
+  -
+    id: '1'
+    title: PGSTech
+    body: " <address>\r\n            <p>\r\n                2120 R. Sherbrooke E,\r\n                <br>\r\n                Suite 800\r\n                <br>\r\n                Montréal, QC H2K 1C3\r\n                <br>\r\n                Canada\r\n            </p>\r\n\t\t  </address>"
+    latitude: '45.5088'
+    longitude: '-73.5878'
+    country: Canada
+    country_code: CA
+    remove: Remove
+  -
+    id: '2'
+    title: 'InterNET SRL (+)'
+    body: " <h3>\r\n            Headquarters\r\n        </h3>\r\n        <address>\r\n            <p>\r\n                65 Teodosie Rudeanu Street\r\n                <br>\r\n                CODE RO-011 257, Bucharest\r\n                <br>\r\n                Romania\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Website</u>: <a href=\"https://www.inter-net.ro\">https://www.inter-net.ro</a>\r\n            <br>\r\n            <u>Mail to</u>: <a href=\"mailto:office@inter-net.ro\">office@inter-net.ro</a>\r\n            <br>\r\n            Tel: +(40)21-312-1662, +(40)21-312-1663\r\n        </p>"
+    latitude: '45.94'
+    longitude: '24.97'
+    country: Romania
+    country_code: RO
+    remove: Remove
+  -
+    id: '3'
+    title: 'Parvus Consulting'
+    body: "        <address>\r\n            <p>\r\n                37/39 Kostava Street Tbilisi,\r\n                <br>\r\n                GEORGIA\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Website</u>: www.parvusconsulting.com\r\n            <br>\r\n            <u>Mail</u>:<a href=\"mailto: infoconsulting@parvusgroup.ge\"> infoconsulting@parvusgroup.ge</a>\r\n            <em>Parvus Consulting is the distributor for Georgia.</em>\r\n        </p>    "
+    latitude: '42.32'
+    longitude: '43.36'
+    country: Georgia
+    country_code: GE
+    remove: Remove
+  -
+    id: '4'
+    title: '  ASTek Applied Co., Ltd.'
+    body: " <address>\r\n            <p>\r\n                No.30 Zhongzheng S Rd,\r\n                <br>\r\n                Yongkang Dist.\r\n                <br>\r\n                TAIWAN\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Tel</u>: +886 (6)-281-3300 | Ext 8300\r\n            <br>\r\n            <u>Website</u>: www.astek-tw.com\r\n            <br>\r\n            <u>Mail</u>:<a href=\"mailto: lucy.tsay@astek-tw.com\"> lucy.tsay@astektw.com</a><br />\r\n            <em>ASTek Applied Co., Ltd. is the distributor for Taiwan.</em>\r\n        </p>"
+    latitude: '23.7'
+    longitude: '120.96'
+    country: Taiwan
+    country_code: TW
+    remove: Remove
+  -
+    id: '5'
+    title: 'Beijing Creation Technology Development Corp.'
+    body: " <address>\r\n            <p>\r\n                Rm.707, HengRun International Building,\r\n                <br>\r\n                32 Beisanhuan West Road,\r\n                <br>\r\n                Haidian District, Beijing,\r\n                <br>\r\n                CHINA\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Website</u>: www.creation-bj.com\r\n            <br>\r\n            <u>Mail</u>:<a href=\"mailto: davidhu@cssbwzt.com\"> davidhu@cssbwzt.com</a><br/>\r\n            <em>Beijing Creation Technology Development Corp is the distributor for China.</em>\r\n        </p>\t  "
+    latitude: '35.86'
+    longitude: '104.2'
+    country: China
+    country_code: CN
+    remove: Remove
+  -
+    id: '6'
+    title: 'Power Energy and Control Engineering S.A.C.'
+    body: "<address>\r\n            <p>\r\n                Av. Brasil 1458,\r\n                <br>\r\n                Dpto. 1202,\r\n                <br>\r\n                Lima,\r\n                <br>\r\n                PERU\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Mail</u>:<a href=\"mailto: cgalvezn@pwece.com\"> cgalvezn@pwece.com</a>\r\n            <em>Power Energy and Control Engineering S.A.C. is the distributor for Peru.</em>\r\n        </p>"
+    latitude: '-9.19'
+    longitude: '-75.02'
+    country: Peru
+    country_code: PE
+    remove: Remove
+  -
+    id: '7'
+    title: 'KRATIS Engineering'
+    body: " <address>\r\n            <p>\r\n                Yukari Dikmen,\r\n                <br>\r\n                Mah. 628. Cad. No:10,\r\n                <br>\r\n                Oran Çankaya 06450 Ankara\r\n                <br>\r\n                TÜRKIYE\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Tel</u>: +90 (312) 491-7799\r\n            <br>\r\n            <u>Website</u>: www.kratis.com\r\n            <br>\r\n            <u>Mail</u>:<a href=\"mailto: kratis@kratis.com\"> kratis@kratis.com</a>\r\n            <em>KRATIS Engineering is the distributor for Turkey.</em>\r\n        </p>   "
+    latitude: '38.96'
+    longitude: '35.24'
+    country: TURKEY
+    country_code: TR
+    remove: Remove
+  -
+    id: '8'
+    title: 'SAM-A Techno Solutions Co., Ltd.'
+    body: "<address>\r\n            <p>\r\n                4F, Base building, Songjeongno 1gil 19,\r\n                <br>\r\n                Gangseo-Gu, Seoul,\r\n                <br>\r\n                SOUTH KOREA\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Tel</u>: +(82)10-8280-0914;\r\n            <br>\r\n            +(82)2-2664-5840\r\n            <br>\r\n            <u>Website</u>: www.isama.net\r\n            <br>\r\n            <u>Mail</u>:<a href=\"mailto: hbim@isama.net\"> hbim@isama.net</a><br/>        \r\n            <em>SAM-A Technosolutions is the distributor for South Korea.</em>\r\n        </p>"
+    latitude: '35.91'
+    longitude: '127.77'
+    country: 'South Korea'
+    country_code: KR
+    remove: Remove
+  -
+    id: '9'
+    title: SYTEC
+    body: " <address>\r\n            <p>\r\n                38th Thanh Nhan,\r\n                <br>\r\n                Hai Ba Trung District, Hanoi,\r\n                <br>\r\n                VIETNAM\r\n            </p>\r\n        </address>\r\n        <p>\r\n            <u>Tel</u>: +84(0)24-3577-3340;\r\n            <br>\r\n            <u>Website</u>: www.sytek.vn\r\n            <br>\r\n            <u>Mail</u>:<a href=\"mailto: info@sinhphuc.vn\"> info@sinhphuc.vn</a>\r\n            <em>System &amp; Technology Company Ltd. (SYTEC), a private incorporated company founded in 1996 is the distributor for Vietnam.</em>\r\n        </p>"
+    latitude: '14.06'
+    longitude: '108.28'
+    country: Vietnam
+    country_code: VN
+    remove: Remove

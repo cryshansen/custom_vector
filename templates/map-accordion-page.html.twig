@@ -1,0 +1,34 @@
+<h4 class="d-none">Tis i the map-accordion-page</h4>
+
+{# map-accordion-page.html.twig #}
+<div class="custom-page">
+<h4>
+    <strong>EMTP<sup>®</sup></strong> <strong>Official Distributors</strong>
+</h4>
+<p>
+    Find our offices and EMTP<sup>®</sup> Local Distributors in the list below or click on your country to find it.
+</p>
+ <div class="accordion" id="accordionExample">
+  {% set first = true %}
+  {% for location in locations %}
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-heading{{ loop.index }}">
+          <button class="accordion-button {{ first ? '' : 'collapsed' }}" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ loop.index }}" aria-expanded="{{ first ? 'true' : 'false' }}" aria-controls="flush-collapse{{ loop.index }}" data-country="{{location.country_code}}">
+            {{ location.name }}
+          </button>
+        </h2>
+        <div id="flush-collapse{{ loop.index }}" class="accordion-collapse collapse {{ first ? ' show' : '' }}" aria-labelledby="flush-heading{{ loop.index }}" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            {{location.address |raw }}
+          </div>
+        </div>
+      </div>
+   {% set first = false %}
+   {% endfor %}
+</div>
+</div>
+<div id="map" class="" style="float:right;"></div>
+<script>
+    // Pass the locations to JavaScript
+    var locations = {{ locations|json_encode|raw }};
+</script>
